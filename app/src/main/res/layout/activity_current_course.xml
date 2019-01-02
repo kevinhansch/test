@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentLesson"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgViewCurrent_course"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/tv_course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Course Name"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/tv_course_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Course Category"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv_course_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Made by: Creator"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Released on: "
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_course_releasedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/datetime"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating: "
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_course_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0/5.0"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/course_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Course Description"/>
+    <Button
+        android:id="@+id/btn_get_this_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#2d2d2d"
+        android:text="Get This Course: IDR0"
+        android:textColor="@color/colorWhite" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerCurrentLesson"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

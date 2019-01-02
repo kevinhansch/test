@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Lightbulb</string>
+    <string name="navdrawer_icon">navdrawer icon</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="email_email_com">Email@email.com</string>
+    <string name="homepage">Homepage</string>
+    <string name="my_course">My Course</string>
+    <string name="profile">Profile</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="about_us">About us</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="homepage_selection">
+        <item>Select Category..</item>
+        <item>Information Technology</item>
+        <item>Art and Design</item>
+        <item>Physics</item>
+        <item>Music</item>
+        <item>English</item>
+        <item>Business</item>
+    </string-array>
+    <string-array name="mycourses_selection">
+        <item>Select Completion Status..</item>
+        <item>ON GOING</item>
+        <item>COMPLETED</item>
+    </string-array>
+    <string name="title_activity_my_courses">MyCourses</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_account_setting">AccountSetting</string>
+    <string name="member_since">Member Since</string>
+    <string name="reward">Reward</string>
+    <string name="email">Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="log_out">Log out</string>
+    <string name="datetime">Datetime</string>
+    <string name="title_activity_current_lesson">CurrentLesson</string>
+    <string name="lesson_name_ex">Lesson #</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+        <item
+            android:checked="true"
+            android:id="@+id/homepage_drw"
+            android:title="@string/homepage" />
+        <item
+            android:id="@+id/mycourse_drw"
+            android:title="@string/my_course"/>
+        <item
+            android:id="@+id/profile_drw"
+            android:title="@string/profile"/>
+        <item
+            android:id="@+id/accsett_drw"
+            android:title="@string/account_settings"/>
+        <item
+            android:id="@+id/notif_drw"
+            android:title="@string/notifications"/>
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/aboutus_drw"
+            android:title="@string/about_us"/>
+    </group>
+
+</menu>
